@@ -10,29 +10,6 @@ Accurately predicting salaries helps companies optimize compensation strategies 
 
 ---
 
-## 🛠 Features Used
-
-- **Education Level:** Highest qualification attained by the employee.
-- **Years of Experience:** Total work experience in years.
-- **Job Title:** Designation or role of the employee.
-- **Industry:** The sector in which the employee works.
-- **Location:** Geographic location of the job.
-- **Company Size:** Size of the company (small, medium, large).
-- **Certifications:** Relevant professional certifications.
-- **Age:** Employee’s age.
-- **Working Hours:** Number of hours worked weekly.
-- **Crucial Code:** A domain-specific code affecting salary (could be skill or department code).
-
----
-
-## 📊 Data Preprocessing
-
-- Removed rows with missing salary values from training data to ensure quality.
-- Handled missing values in features:
-  - Filled numerical missing values with column means.
-  - Filled categorical missing values with the most frequent category (mode).
-- Encoded categorical variables using one-hot encoding to convert them into a machine-readable format.
-- Scaled all feature values using StandardScaler to normalize data distribution, which improves model performance.
 
 ---
 
@@ -45,10 +22,6 @@ Accurately predicting salaries helps companies optimize compensation strategies 
 
 ---
 
-## 📈 Model Performance
-
-- The model achieved an RMSE of approximately `₹<your_rmse_value>` on the validation set.
-- Feature importance analysis revealed which factors most influenced salary predictions, enabling interpretability.
 
 ---
 
